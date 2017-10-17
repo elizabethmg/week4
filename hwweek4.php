@@ -1,5 +1,4 @@
 <?php
-echo "add a new line";
 $date =  date('Y/m/d', time());
 echo "The value of \$date: ".$date."<br>";
 echo "<br>";
@@ -40,14 +39,17 @@ echo"<br>";
 echo substr($date,-2)."<br>";
 echo"<br>";
 
+$date =  date('Y/m/d', time());
+echo str_split($date)."<br>";
+print_r($date);
 
 
 
 $year = array("2012", "396", "300","2000", "1100", "1089");
-echo "The value of \$year: ";
-echo "<br>";
-print_r($year)
 
+echo "The value of \$year: ";
+
+print_r($year)
 //foreach ($year as $value) {
 //    $value = ;
 //}
